@@ -1,0 +1,329 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common CSS Start */
+.margin-60 {
+  margin-top: 6rem;
+}
+
+.margin-50 {
+  margin-top: 5rem;
+}
+
+.margin-30 {
+  margin-top: 3rem;
+}
+/* Common CSS End */
+
+/* Top Banner Section CSS Start */
+.top-banner {
+  background-color: #cb202d;
+  padding: 0.5rem 0px;
+}
+
+.top-banner-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+/* Top Banner Section CSS End */
+
+/* Banner Section CSS Start */
+.banner {
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.3), hsla(0, 0%, 0%, 0.4)),
+    url("../images/Home.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.banner .col-12{
+  height: 50vh;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-logo {
+  height: 10rem;
+  border-radius: 0.5rem;
+}
+
+.banner-header {
+  margin-top: 3rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+/* Banner Section CSS End */
+
+/* Collection Section CSS Start */
+.collection-heading {
+  color: #33373d;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.collection-text {
+  color: #89959b;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.collection-items {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  box-shadow: 0.5rem 1rem 1.5rem #00000030;
+  height: 100%;
+}
+
+.collection-img {
+  max-width: 12rem;
+  height: auto;
+}
+
+.collection-items-details{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.collection-items-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.collection-items-discription {
+  font-size: 1.4rem;
+}
+
+.collection-item-list {
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
+.collection-item-linklist {
+  text-decoration: none;
+  color: #cb202d;
+  font-size: 1.6rem;
+}
+/* Collection Section CSS End */
+
+/* Steps Section CSS Start */
+.steps-main-heading {
+  color: #333;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.steps-heading-bold {
+  font-weight: 700;
+  color: black;
+}
+
+.steps-content-box {
+  text-align: center;
+}
+
+.steps-logo{
+max-width: 6rem;
+}
+
+.steps-sub-heading {
+  font-weight: 700;
+  color: black;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.steps-text{
+  color: #444; 
+  font-size: 1.4rem; 
+  margin-top: 1rem"
+}
+/* Steps Section CSS End */
+
+/* Download Section CSS Strat */
+
+.download-img {
+  max-width: 24rem;
+}
+
+.download-heading {
+  color: #33373d;
+  font-size: 2.2rem;
+}
+
+.download-text {
+  color: #89959b;
+  font-size: 1.5rem;
+}
+
+.download-logo-box {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.download-logo {
+  max-width: 12rem;
+}
+/* Download-Section CSS End */
+
+/* Popularity Section CSS Start */
+
+.popularity-box {
+  color: #b9bfc7;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.popularity-value {
+  font-weight: 400;
+  font-size: 4.2rem;
+  margin: 0px;
+}
+
+.popularity-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+/* Popularity Section CSS End */
+
+/* Footer CSS Start */
+.footer {
+  background-color: #000;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.footer-download-logo {
+  max-width: 18rem;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.footer-download-logo:last-child {
+  margin-bottom: 0rem;
+}
+
+.footer-heading {
+  font-size: 2rem;
+  color: #808080;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-lists {
+  padding-left: 0rem;
+  list-style-type: none;
+}
+
+.footer-lists li {
+  margin-bottom: 1.5rem;
+}
+
+.footer-links {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.bottom-footer-box {
+  border-top: 1px solid #4d4d4d;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.footer-botom-text {
+  color: #fff;
+  margin-bottom: 0rem;
+}
+
+.footer-social-logo {
+  max-width: 2.4rem;
+  margin-left: 2rem;
+}
+
+/* Footer CSS End */
+
+/* ul {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding-right: 30px;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+.F img {
+  transform: scale(1, 1);
+}
+
+.F:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: black;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+  border-radius: 0.28571429rem;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+} */

@@ -1,0 +1,73 @@
+/* Media Quary */
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 74.9375em) {
+  html {
+    /* font-size: 56.25%; */ /* 9px / 16px = 0.5625 = 56.25% */
+
+    font-size: 50%; /* 8px / 16px = 0.5 = 50% */
+  }
+}
+
+**************************/
+/* BELOW 991px (Tablets) */ /* 991px / 16 = 61.9375em */
+/**************************/
+
+@media (max-width: 61.9375em) {
+}
+
+/**************************/
+/* BELOW 768px (Smaller tablets) */ /* 768px / 16 = 48em */
+/**************************/
+
+@media (max-width: 47.9375em) {
+  html {
+    /* font-size: 50%; */ /* 8px / 16px = 0.5 = 50% */
+
+    /* font-size: 43.75%; */ /* 7px / 16px = 0.4375 = 43.75% */
+
+    font-size: 37.5%; /* 6px / 16px = 0.375 = 37.5% */
+  }
+
+  .download-app-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .download-logo-box {
+    justify-content: center;
+  }
+
+  .social-media {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
+/**************************/
+/* BELOW 576px (Phones) */ /* 576px / 16 = 36em */
+/**************************/
+
+@media (max-width: 35.9375em) {
+  html {
+    /* font-size: 37.5%; */ /* 6px / 16px = 0.375 = 37.5% */
+
+    font-size: 31.25%; /* 5px / 16px = 0.3125 = 31.25% */
+  }
+
+  .collection-section,
+  .steps-section,
+  .Download-Section,
+  .Popularity-Section,
+  .footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .top-banner {
+    text-align: center;
+  }
+}
